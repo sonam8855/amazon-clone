@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+
+/* box2 */
+
+
+.location-line1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.location-line2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/* box3 */
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#FFB700;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+/* box4 */
+
+
+span{
+    font-size: 0.8rem;
+}
+.line2{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+
+/* cart */
+
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font: size 0.85rem;
+    font-weight: 600;
+}
+
+
+/* pannel section */
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.pannel-all{
+    width: 58px;
+    height: 39px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.pannel-options a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.pannel-options a:hover{
+    border: 1px solid white;
+}
+
+
+/* <.....hero-section.....> */
+
+.hero-section{
+    background-image: url(images/herosection-display2.jpg);
+    height: 600px;
+    background-size: cover;
+
+}
