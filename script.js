@@ -39,3 +39,23 @@ next_btn.addEventListener('click', (e)=>{
     slide();
 })
 
+// automatic slide
+
+let slideIndex = 0;
+showslide();
+
+function showslide(){
+    let i;
+    let slides= document.getElementsByClassName("slider-img");
+    for(i = 0; i<slides.length;i++){
+        slides[i].style.display="none";
+    }
+    slideIndex++;
+    if (slideIndex>=slides.length) {
+        slideIndex =1
+    }
+
+    slides[slideIndex -1].style.display ="block";
+    setTimeout(showslide, 2000)
+
+}
